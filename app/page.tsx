@@ -1,9 +1,9 @@
 import React from 'react';
 import { Mail, ExternalLink, FileText, Code, BookOpen, GraduationCap } from 'lucide-react';
-import { Card } from './components/Card';  // Changed from @/components/Card
-import { ThemeToggle } from './components/ThemeToggle';  // Changed from @/components/ThemeToggle
+import { Card } from './components/Card';
+import { ThemeToggle } from './components/ThemeToggle';
 
-export default function Page(): JSX.Element {
+export default function Page(): React.ReactNode {
   return (
     <div className="min-h-screen py-8 font-['Courier_New']" style={{ backgroundColor: 'var(--background)' }}>
       {/* Header Section */}
