@@ -24,7 +24,7 @@ export default function Page(): React.ReactNode {
             <span>amnasiriasayesh@gmail.com</span>
           </div>
           <a 
-            href="https://www.linkedin.com/in/amirmohammad-asayesh" 
+            href="https://www.linkedin.com/in/amir-mohammad-asayesh/" 
             className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
             style={{ color: 'var(--text-tertiary)' }}
             target="_blank" 
