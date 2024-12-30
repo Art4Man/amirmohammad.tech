@@ -5,12 +5,14 @@ import { Sun, Moon } from 'lucide-react';
 
 export const themes = {
   light: {
-    '--background': '#F9FAFB', // bg-gray-50
+    '--background': '#F9FAFB',
     '--foreground': '#171717',
     '--card-background': '#ffffff',
     '--text-secondary': '#374151',
     '--text-tertiary': '#6b7280',
-    '--heading-color': '#525252'
+    '--heading-color': '#525252',
+    '--buttonBg': '#ffffff',
+    '--iconColor': '#374151'
   },
   dark: {
     '--background': '#0a0a0a',
@@ -18,11 +20,13 @@ export const themes = {
     '--card-background': '#171717',
     '--text-secondary': '#e5e7eb',
     '--text-tertiary': '#9ca3af',
-    '--heading-color': '#a3a3a3'
+    '--heading-color': '#a3a3a3',
+    '--buttonBg': '#2a2a2a',
+    '--iconColor': '#e5e7eb'
   }
 };
 
-export const ThemeToggle = () => {
+export function ThemeToggle() {
   const [theme, setTheme] = useState('light');
 
   const applyTheme = (selectedTheme: 'light' | 'dark') => {
@@ -55,7 +59,7 @@ export const ThemeToggle = () => {
       onClick={toggleTheme}
       className="p-2 rounded-lg transition-all duration-200"
       style={{
-        backgroundColor: theme === 'light' ? 'var(--buttonBg)' : '#2a2a2a',
+        backgroundColor: 'var(--buttonBg)',
         border: theme === 'light' ? '1px solid #e5e7eb' : '1px solid #4b5563'
       }}
       aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
@@ -67,6 +71,4 @@ export const ThemeToggle = () => {
       )}
     </button>
   );
-};
-
-export default ThemeToggle;
+}
