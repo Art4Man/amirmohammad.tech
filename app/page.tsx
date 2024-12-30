@@ -53,7 +53,7 @@ const Portfolio = () => {
             <p className="text-gray-600">
             Tech enthusiast by day, data detective by night! Currently juggling Computer Engineering studies with a cool gig as a Data Quality Engineer at Snapp.
             <br />
-            I'm on a mission to turn messy data into meaningful insights while exploring the fascinating world of tech.
+            I&apos;m on a mission to turn messy data into meaningful insights while exploring the fascinating world of tech.
             <br />
             Always eager to dive into new technologies, solve puzzles, and find creative ways to make data work smarter, not harder.
             <br />
@@ -113,7 +113,7 @@ const Portfolio = () => {
           </h2>
           <div className="space-y-6 text-gray-600">
             <div>
-              <h3 className="text-gray-500">Bachelor's degree, Computer Engineering</h3>
+              <h3 className="text-gray-500">Bachelor&apos;s degree, Computer Engineering</h3>
               <p>Islamic Azad University · September 2020</p>
             </div>
             <div>
