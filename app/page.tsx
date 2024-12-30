@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { Mail, ExternalLink, FileText, Code, BookOpen, GraduationCap } from 'lucide-react';
 
-const Card = ({ children, className = "" }) => (
+interface CardProps {
+  children: React.ReactNode;
+  className?: string;
+}
+
+const Card = ({ children, className = "" }: CardProps) => (
   <div className={`bg-white rounded-lg shadow-sm p-6 ${className}`}>
     {children}
   </div>
