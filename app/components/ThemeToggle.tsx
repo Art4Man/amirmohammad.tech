@@ -5,12 +5,12 @@ import { Sun, Moon } from 'lucide-react';
 
 export const themes = {
   light: {
-    '--background': '#ffffff',
+    '--background': '#F9FAFB', // bg-gray-50
     '--foreground': '#171717',
     '--card-background': '#ffffff',
     '--text-secondary': '#374151',
     '--text-tertiary': '#6b7280',
-    '--heading-color': '#2563eb'  // Add blue color for headings
+    '--heading-color': '#525252'
   },
   dark: {
     '--background': '#0a0a0a',
@@ -18,7 +18,7 @@ export const themes = {
     '--card-background': '#171717',
     '--text-secondary': '#e5e7eb',
     '--text-tertiary': '#9ca3af',
-    '--heading-color': '#60a5fa'  // Add lighter blue for dark mode
+    '--heading-color': '#a3a3a3'
   }
 };
 

@@ -20,13 +20,7 @@ export const Card: React.FC<CardProps> = ({ children, className = "", id }) => (
 
 export default function Portfolio(): JSX.Element {
   return (
-    <div 
-      className="min-h-screen py-8 font-['Courier_New']"
-      style={{ 
-        backgroundColor: 'var(--background)',
-        color: 'var(--foreground)'
-      }}
-    >
+    <div className="min-h-screen py-8 font-['Courier_New']" style={{ backgroundColor: 'var(--background)' }}>
       {/* Header Section */}
       <header className="max-w-4xl mx-auto mb-5 font-['Source_Serif_Pro'] text-center">
         <div className="fixed top-4 right-4 z-50">
@@ -77,8 +71,8 @@ export default function Portfolio(): JSX.Element {
       <main className="max-w-4xl mx-auto space-y-8 px-4">
         {/* Summary */}
         <Card id="summary">
-          <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--heading-color)' }}>
-            Summary
+          <h2 className="text-lg font-normal mb-4 flex items-center gap-2 text-gray-400">
+            <FileText className="w-5 h-5" /> Summary
           </h2>
           <p style={{ color: 'var(--text-secondary)' }}>
             Tech enthusiast by day, data detective by night! Currently juggling Computer Engineering studies with a cool gig as a Data Quality Engineer at Snapp.
@@ -93,8 +87,8 @@ export default function Portfolio(): JSX.Element {
 
         {/* Experience */}
         <Card id="experience">
-          <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--heading-color)' }}>
-            Experience
+          <h2 className="text-lg font-normal mb-4 flex items-center gap-2 text-gray-400">
+            <Code className="w-5 h-5" /> Experience
           </h2>
           <div className="space-y-6" style={{ color: 'var(--text-secondary)' }}>
             <div>
@@ -112,8 +106,8 @@ export default function Portfolio(): JSX.Element {
 
         {/* Skills */}
         <Card id="skills">
-          <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--heading-color)' }}>
-            Skills
+          <h2 className="text-lg font-normal mb-4 flex items-center gap-2 text-gray-400">
+            <BookOpen className="w-5 h-5" /> Skills
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
@@ -135,8 +129,8 @@ export default function Portfolio(): JSX.Element {
 
         {/* Education */}
         <Card id="education">
-          <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--heading-color)' }}>
-            Education
+          <h2 className="text-lg font-normal mb-4 flex items-center gap-2 text-gray-400">
+            <GraduationCap className="w-5 h-5" /> Education
           </h2>
           <div className="space-y-6" style={{ color: 'var(--text-secondary)' }}>
             <div>
@@ -152,7 +146,7 @@ export default function Portfolio(): JSX.Element {
       </main>
 
       {/* Footer */}
-      <footer className="max-w-4xl mx-auto mt-12 text-center text-sm" style={{ color: 'var(--text-tertiary)' }}>
+      <footer className="max-w-4xl mx-auto mt-12 text-center text-sm text-gray-400">
         <p>created at 4:00 AM in the morning with LOVE :)</p>
       </footer>
     </div>
