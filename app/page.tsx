@@ -21,7 +21,7 @@ const Portfolio = () => {
         <h1 className="text-4xl text-gray-500 mb-2">Amir Mohammad Asayesh</h1>
         <div className="text-lg text-gray-400 space-y-1">
           <p className="italic">Data Quality Automation Engineer at Snapp!</p>
-          <p>undergraduate bachelor CE</p>
+          <p>undergraduate bachelor Computer Engineering</p>
         </div>
         <div className="mt-4 flex justify-center items-center gap-4">
           <div className="flex items-center space-x-2">
