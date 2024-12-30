@@ -26,7 +26,7 @@ const Portfolio = () => {
         <div className="mt-4 flex justify-center items-center gap-4">
           <div className="flex items-center space-x-2">
             <Mail className="w-4 h-4 text-gray-400" />
-            <span className="text-gray-400">amirnasiri1145@gmail.com</span>
+            <span className="text-gray-400">amnasiriasayesh@gmail.com</span>
           </div>
           <a href="https://www.linkedin.com/in/amirmohammad-asayesh" 
              className="flex items-center space-x-2 text-gray-400 hover:text-gray-500"
