@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
+
+This is my personal portfolio website built with Next.js and Tailwind CSS.
 
 ## Getting Started
 
-First, run the development server:
+These instructions will help you get a copy of the project up and running on your local machine.
 
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm (comes with Node.js)
+- Git
+
+### Local Development
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Art4Man/amirmohammad.tech.git
+cd amirmohammad.tech
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Start the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+### Making Changes
 
-To learn more about Next.js, take a look at the following resources:
+1. Make your changes in the code
+2. Test locally using `npm run dev`
+3. Commit and push your changes:
+```bash
+git add .
+git commit -m "Description of your changes"
+git push origin main
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website will automatically redeploy when changes are pushed to the main branch.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Built With
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/) - The React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styling
+- [Lucide React](https://lucide.dev/) - For icons
+- [Vercel](https://vercel.com/) - For deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+amirmohammad.tech/
+├── app/
+│   └── page.tsx      # Main portfolio component
+├── public/           # Static files
+├── tsconfig.json     # TypeScript configuration
+└── package.json      # Project dependencies
+```
+
+## Deployment
+
+The site is automatically deployed using Vercel when changes are pushed to the main branch.
+
+## Notes
+
+Created with ❤️ at 4:00 AM in the morning :)
